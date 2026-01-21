@@ -1,0 +1,26 @@
+#container {
+    display: flex;
+    width: 100%;
+    gap: 20px; /* espaço entre as divs (opcional) */
+}
+
+/* cada lado ocupa metade */
+#info, #imgs {
+    width: 50%;
+}
+
+/* só para organizar as imagens */
+#imgs {
+    display: inline-table;
+    gap: 10px;
+    justify-content: end; /* empurra para a direita */
+}
+
+.imgp {
+    margin-top: 20vh;
+    
+
+    padding: 10px;
+    background-color: antiquewhite;
+    
+}
