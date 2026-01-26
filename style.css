@@ -1,26 +1,108 @@
+@font-face {
+    font-family: roboto;
+    src: url(font/Roboto-Regular.ttf);
+}
+
+
+#banner{
+    background-image:  url(img/prom.webp) ;
+    background-repeat: no-repeat;
+  background-position: center;
+    background-size: cover ;
+    height: 50vh;
+}
+body{
+    margin: 0 auto;
+    background-color: rgb(17, 17, 48);
+    font-family: roboto;
+}
 #container {
     display: flex;
     width: 100%;
-    gap: 20px; /* espaço entre as divs (opcional) */
+    gap: 20px;
+    
+max-width: 100%;
+line-height: 5px;
 }
 
 /* cada lado ocupa metade */
-#info, #imgs {
-    width: 50%;
+#info{
+width: 50%;
+display: grid;
+
+
+}
+.botao{
+    display: flex;
 }
 
-/* só para organizar as imagens */
+
+
 #imgs {
-    display: inline-table;
+    display: flex;
     gap: 10px;
-    justify-content: end; /* empurra para a direita */
+    width: 20%;
+    flex-direction: column;
+ margin-left: 25vw;
+ 
+
+    
 }
+
+
 
 .imgp {
-    margin-top: 20vh;
-    
 
+    display: flex;
+    height: 30px;
     padding: 10px;
-    background-color: antiquewhite;
     
+    width: 30px  ;
+
+}
+.item{
+    display:  flex;
+    align-items: center;
+    gap: 8px;
+}
+
+
+
+.nome{
+    color: #fff;
+    font-size: 2rem;
+}
+.mais{
+     color: #0b6cce;
+     line-height: 15px;
+}
+.link{
+    color: #0b6cce;
+    text-decoration: none;
+}
+.esp{
+    color: #fff;
+}
+.feram{
+    color: lightgray;
+}
+.azul {
+    background-color: #0b6cce; ;
+    color: #000;
+    border-style: none;
+    border-radius: 10px;
+    width: 7vw;
+    height: 3vh;
+}
+.vazado{
+background-color: rgba(0, 0, 0, 0);
+color: #0b6cce;
+border-radius: 10px ;
+width: 2.9vw;
+border:  1.2px solid  #0b6cce;;
+
+}
+.botao{
+gap: 10px;
+
 }
