@@ -1,3 +1,10 @@
+:root{
+--cor-do-likedin: #0b6cce;
+
+}
+
+
+
 @font-face {
     font-family: roboto;
     src: url(font/Roboto-Regular.ttf);
@@ -10,6 +17,20 @@
   background-position: center;
     background-size: cover ;
     height: 50vh;
+}
+#avatar{
+background-image: url(img/ls_tech.jpg);
+background-size: cover;
+background-position: center;
+width: 250px;
+height: 250px;
+border-radius: 365px;
+bottom: -30vh ;
+left: 80px;
+position: relative;
+border: solid #000 2px;
+
+
 }
 body{
     margin: 0 auto;
@@ -29,11 +50,15 @@ line-height: 5px;
 #info{
 width: 50%;
 display: grid;
+margin-left: 90px;
+margin-top: 45px;
+
 
 
 }
 .botao{
     display: flex;
+    cursor: pointer;
 }
 
 
@@ -43,7 +68,9 @@ display: grid;
     gap: 10px;
     width: 20%;
     flex-direction: column;
- margin-left: 25vw;
+ margin-left: 15vw;
+ margin-top: 10vh;
+ 
  
 
     
@@ -93,6 +120,7 @@ display: grid;
     border-radius: 10px;
     width: 7vw;
     height: 3vh;
+    cursor: pointer;
 }
 .vazado{
 background-color: rgba(0, 0, 0, 0);
@@ -100,9 +128,18 @@ color: #0b6cce;
 border-radius: 10px ;
 width: 2.9vw;
 border:  1.2px solid  #0b6cce;;
+cursor: pointer;
 
 }
 .botao{
 gap: 10px;
 
+}
+.azul:hover{
+background-color: #000;
+color: var(--cor-do-likedin);
+}
+.vazado:hover{
+    background-color: #0b6cce;
+    color: #000;
 }
