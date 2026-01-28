@@ -1,5 +1,5 @@
-:root{
---cor-do-likedin: #0b6cce;
+:root {
+    --cor-do-likedin: #0b6cce;
 
 }
 
@@ -11,52 +11,56 @@
 }
 
 
-#banner{
-    background-image:  url(img/prom.webp) ;
+#banner {
+    background-image: url(img/prom.webp);
     background-repeat: no-repeat;
-  background-position: center;
-    background-size: cover ;
+    background-position: center;
+    background-size: cover;
     height: 50vh;
 }
-#avatar{
-background-image: url(img/ls_tech.jpg);
-background-size: cover;
-background-position: center;
-width: 250px;
-height: 250px;
-border-radius: 365px;
-bottom: -30vh ;
-left: 80px;
-position: relative;
-border: solid #000 2px;
+
+#avatar {
+    background-image: url(img/ls_tech.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 250px;
+    border-radius: 365px;
+    bottom: -30vh;
+    left: 80px;
+    position: relative;
+    border: solid #000 2px;
 
 
 }
-body{
+
+body {
     margin: 0 auto;
     background-color: rgb(17, 17, 48);
     font-family: roboto;
 }
+
 #container {
     display: flex;
     width: 100%;
     gap: 20px;
-    
-max-width: 100%;
-line-height: 5px;
+
+    max-width: 100%;
+    line-height: 5px;
 }
 
 /* cada lado ocupa metade */
-#info{
-width: 50%;
-display: grid;
-margin-left: 90px;
-margin-top: 45px;
+#info {
+    width: 50%;
+    display: grid;
+    margin-left: 90px;
+    margin-top: 45px;
 
 
 
 }
-.botao{
+
+.botao {
     display: flex;
     cursor: pointer;
 }
@@ -68,12 +72,12 @@ margin-top: 45px;
     gap: 10px;
     width: 20%;
     flex-direction: column;
- margin-left: 15vw;
- margin-top: 10vh;
- 
- 
+    margin-left: 15vw;
+    margin-top: 10vh;
 
-    
+
+
+
 }
 
 
@@ -83,38 +87,45 @@ margin-top: 45px;
     display: flex;
     height: 30px;
     padding: 10px;
-    
-    width: 30px  ;
+
+    width: 30px;
 
 }
-.item{
-    display:  flex;
+
+.item {
+    display: flex;
     align-items: center;
     gap: 8px;
 }
 
 
 
-.nome{
+.nome {
     color: #fff;
     font-size: 2rem;
 }
-.mais{
-     color: #0b6cce;
-     line-height: 15px;
+
+.mais {
+    color: #0b6cce;
+    line-height: 15px;
 }
-.link{
+
+.link {
     color: #0b6cce;
     text-decoration: none;
 }
-.esp{
+
+.esp {
     color: #fff;
 }
-.feram{
+
+.feram {
     color: lightgray;
 }
+
 .azul {
-    background-color: #0b6cce; ;
+    background-color: #0b6cce;
+    ;
     color: #000;
     border-style: none;
     border-radius: 10px;
@@ -122,24 +133,98 @@ margin-top: 45px;
     height: 3vh;
     cursor: pointer;
 }
-.vazado{
-background-color: rgba(0, 0, 0, 0);
-color: #0b6cce;
-border-radius: 10px ;
-width: 2.9vw;
-border:  1.2px solid  #0b6cce;;
-cursor: pointer;
+
+.vazado {
+    background-color: rgba(0, 0, 0, 0);
+    color: #0b6cce;
+    border-radius: 10px;
+    width: 2.9vw;
+    border: 1.2px solid #0b6cce;
+    ;
+    cursor: pointer;
 
 }
-.botao{
-gap: 10px;
+
+.botao {
+    gap: 10px;
 
 }
-.azul:hover{
-background-color: #000;
-color: var(--cor-do-likedin);
+
+.azul:hover {
+    background-color: #000;
+    color: var(--cor-do-likedin);
 }
-.vazado:hover{
+
+.vazado:hover {
     background-color: #0b6cce;
     color: #000;
+}
+
+.icon {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+align-content: space-between;
+    cursor: pointer;
+    gap: px;
+    padding: 5px;
+    
+
+}
+.icon i{
+   font-size: 20px;
+  margin-bottom: 4px;
+  
+
+}
+#icon-l{
+   font-size: 50px;
+ 
+
+}
+
+.menu {
+    color: #fff;
+    display: flex;
+
+
+}
+
+.parte-esquerda {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+#cabeçalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 0 24px;
+    
+}
+
+.parte-esquerda i {
+    font-size: 25px;
+    color: #fff;
+}
+
+.busca {
+    background: #38434f;
+    padding: 6px 10px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #ccc;
+    font-size: 14px;
+    width: 20vw;
+    font-size: 10px;
+}
+#barra{
+    border-left:  1px solid #666666;
+    padding-left: 0px;
 }
