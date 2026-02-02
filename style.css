@@ -16,17 +16,18 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 50vh;
+    height: 40vh;
+    border-radius: 15px;
 }
 
 #avatar {
     background-image: url(img/ls_tech.jpg);
     background-size: cover;
     background-position: center;
-    width: 250px;
-    height: 250px;
+    width: 6vw;
+    height: 12vh;
     border-radius: 365px;
-    bottom: -30vh;
+    bottom: -35vh;
     left: 80px;
     position: relative;
     border: solid #000 2px;
@@ -36,25 +37,25 @@
 
 body {
     margin: 0 auto;
-    background-color: rgb(17, 17, 48);
+    background-color: #000;
     font-family: roboto;
 }
 
 #container {
     display: flex;
     width: 100%;
-    gap: 20px;
+    gap: 2vh;
 
     max-width: 100%;
-    line-height: 5px;
+    line-height: 1.3vh;
 }
 
 /* cada lado ocupa metade */
 #info {
     width: 50%;
     display: grid;
-    margin-left: 90px;
-    margin-top: 45px;
+    margin-left: 9vh;
+    margin-top: 4vh;
 
 
 
@@ -69,7 +70,7 @@ body {
 
 #imgs {
     display: flex;
-    gap: 10px;
+    gap: 1vw;
     width: 20%;
     flex-direction: column;
     margin-left: 15vw;
@@ -85,17 +86,18 @@ body {
 .imgp {
 
     display: flex;
-    height: 30px;
-    padding: 10px;
+    height: 3vh;
+    padding: 1vh;
 
-    width: 30px;
+    width: 1.6vw;
 
 }
 
 .item {
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 1vh;
+    line-height: 2vh;
 }
 
 
@@ -107,7 +109,7 @@ body {
 
 .mais {
     color: #0b6cce;
-    line-height: 15px;
+    line-height: 1.7vh;
 }
 
 .link {
@@ -166,28 +168,42 @@ body {
     flex-direction: column;
     align-items: center;
     font-size: 12px;
-align-content: space-between;
+    align-content: space-between;
     cursor: pointer;
     gap: px;
-    padding: 5px;
-    
+    padding: 5vh;
+text-decoration: none;
+
 
 }
-.icon i{
-   font-size: 20px;
-  margin-bottom: 4px;
-  
+header{
+    background-color:rgb(17, 17, 48);;
+}
+
+.icon i {
+    font-size: 20px;
+    margin-bottom: 4px;
+
 
 }
-#icon-l{
-   font-size: 50px;
- 
+
+.icon a {
+    text-decoration: none;
+    color: #fff;
+
+
+}
+
+#icon-l {
+    font-size: 50px;
+
 
 }
 
 .menu {
     color: #fff;
     display: flex;
+    justify-content: end;
 
 
 }
@@ -204,7 +220,7 @@ align-content: space-between;
     align-items: center;
     height: 60px;
     padding: 0 24px;
-    
+
 }
 
 .parte-esquerda i {
@@ -222,9 +238,28 @@ align-content: space-between;
     color: #ccc;
     font-size: 14px;
     width: 20vw;
-    font-size: 10px;
+    
 }
-#barra{
-    border-left:  1px solid #666666;
+
+#barra {
+    border-left: 1px solid #666666;
     padding-left: 0px;
+}
+
+input {
+    background-color: #38434f;
+    border: none solid transparent;
+    color: #fff;
+    border-style: none;
+
+}
+main{
+    margin: 30px 200px 0 200px;
+}
+#perfil{
+    ;
+width: 68%;
+height: 80vh;
+background-color: rgb(17, 17, 48);
+border-radius: 20px;
 }
